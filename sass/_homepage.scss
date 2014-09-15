@@ -1,0 +1,20 @@
+/* Home Page
+------------------------------------------*/
+
+
+.background1{
+	background: url(../images/sitting3.jpg) no-repeat;
+	@include background-size(cover);
+}
+.background2{
+	background: url(../images/class2a.jpg) no-repeat;
+	@include background-size(cover);
+}
+.background3{
+	background: url(../images/class1a.jpg) no-repeat;
+	@include background-size(cover);
+}
+.logo{
+	margin: 0 auto;
+	padding: 0	auto;
+}

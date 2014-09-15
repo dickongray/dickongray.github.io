@@ -1,0 +1,93 @@
+/* Navigation-hompage
+------------------------------------------*/
+
+.navmobile ul{
+  padding-left: 0;
+  margin-top: 0; 
+}
+
+.navmobile li{
+  list-style:none;
+  width:120px;
+  margin:0 auto 16px;
+  padding:0 auto;
+  text-align:center;
+}
+
+.navmobile li ul{
+ 
+}
+.navmobile a{
+  color:#428bca;
+  text-decoration:none;
+  font-size:20px;
+  font-variant:small-caps;
+  
+}
+.meditate {
+  background: url(../images/logotest3.png);
+  height:90px;
+  width:120px;
+  display:block;
+  margin:0 auto;
+  padding: 0 auto;
+}
+/* Navigation-about page
+------------------------------------------*/
+
+.navmobile2 ul{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.navmobile2 li{
+  list-style:none;
+  display: inline-block;
+  width:120px;
+  margin:0 auto;
+  padding:0 auto;
+  text-align:center;
+}
+.navmobile2 li ul{
+ 
+}
+.navmobile2 a{
+  color:#428bca;
+  text-decoration:none;
+  font-size:20px;
+  font-variant:small-caps;
+}
+.meditate {
+  background: url(../images/logotest3.png);
+  height:90px;
+  width:120px;
+  display:block;
+  margin:0 auto;
+  padding: 0 auto;
+}
+
+/* Media query for nav.
+------------------------------------------*/
+@media screen and (min-width: 385px) {
+
+.navmobile li {
+  display:inline-block;
+  margin-right:16px;
+}
+
+.navmobile ul li:nth-child(3) {
+margin-right:0;
+}
+
+.navmobile ul {
+  margin:20px auto 0;
+  padding:0 auto;
+  max-width:402px;
+}
+.meditate {
+  background: url(../images/logotest3.png);
+  height:100%;
+  display:block;
+  margin:0 auto;
+  padding: 0 auto;
+}
+}
